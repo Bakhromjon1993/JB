@@ -5,7 +5,7 @@
   overflow: auto;
 }
 
-.card{
+.card {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: var(--shadow);
@@ -14,7 +14,7 @@
   color: var(--text-color);
 }
 
-.btn{
+.btn {
   display: inline-block;
   padding: 10px 30px;
   cursor: pointer;
@@ -24,12 +24,12 @@
   color: var(--light-color);
 }
 
-.btn-outline{
+.btn-outline {
   background-color: transparent;
   border: 1px solid #fff;
 }
 
-.btn:hover{
+.btn:hover {
   transform: scale(0.95);
 }
 
@@ -39,7 +39,7 @@
   align-items: center;
 }
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -47,6 +47,14 @@
   align-items: center;
 }
 
-.grid-3{
+.grid-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-4{
+  margin: 3rem auto;
 }
